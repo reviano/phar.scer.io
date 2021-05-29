@@ -5,7 +5,7 @@
   "main": "src/index.jsx",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "cross-env NODE_ENV=development node dev-server",
+    "start": "=development node dev-server",
     "lint": "tslint --project .",
     "build:development": "cross-env NODE_ENV=development webpack",
     "build:production": "cross-env NODE_ENV=production webpack"
